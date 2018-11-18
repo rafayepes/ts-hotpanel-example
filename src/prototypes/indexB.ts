@@ -1,3 +1,5 @@
+// Inspired by Reason prototypes
+
 namespace Index {
     namespace HotpanelProto {
         export const enum ActivationPlaceEnum {
