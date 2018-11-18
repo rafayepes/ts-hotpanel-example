@@ -56,6 +56,7 @@ namespace Index {
             ts: number;
         };
 
+        // How to remove the warning???
         let eventToEventName = (event: HotpanelProto.Event) => {
             if (event instanceof HotpanelProto.ViewProfileEvent) {
                 return 'EVENT_NAME_VIEW_PROFILE';
