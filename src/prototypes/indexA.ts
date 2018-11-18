@@ -30,7 +30,7 @@ trackViewProfileEvent({
 
 trackViewProfileEvent({
     encrypted_user_id: userId,
-    activation_place: 3, // Why compiles?
+    activation_place: 3, // Sad this actually compiles :__(
 });
 
 trackViewProfileEvent({

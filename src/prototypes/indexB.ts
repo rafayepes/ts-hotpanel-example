@@ -1,4 +1,4 @@
-namespace IndexB {
+namespace Index {
     namespace HotpanelProto {
         export const enum ActivationPlaceEnum {
             ACTIVATION_PLACE_MY_PROFILE = 1,
