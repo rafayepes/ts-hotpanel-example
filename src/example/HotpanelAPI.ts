@@ -17,6 +17,13 @@ let eventToEventName = (event: HotpanelProto.Event) => {
         // Also, there is not exhaustive type checking (adding new type doesn't
         // trigger error)
         console.log('Impossible case');
+
+        // Actually, I had a compiler warning on the top of the function telling me
+        // "Not all code paths return a value."
+        // It was not obvious how to fix the problem. After Googling, managed to
+        // solve it by returning null here. The error message could have been
+        // more helpful.
+        return null;
     }
 };
 
